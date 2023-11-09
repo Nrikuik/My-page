@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color:rgb(212, 185, 212);
     color: black;
     font-family: 'Tajawal', sans-serif;
 }
@@ -9,7 +9,7 @@ a{
 }
 
 h1{
-    color: #091540;
+    color: aliceblue;
     font-family: 'Bad Script', cursive;
     text-size-adjust:inherit;
     text-align: center; 
@@ -50,9 +50,43 @@ header nav .top a{
     justify-self: flex-end;
 }
 
+main{
+    background-image: url(/images/002.jpg);
+}
 
 .full{
     width: 100%;
+}
+
+.Container {
+    background-color: antiquewhite;
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.Indice{
+    background-color: white;
+    width: 20%;
+    padding: 25px;
+    margin-top: 5%;
+    border-radius: 5px;
+
+}
+
+.portada{
+    width: 10%;
+    border-radius: 10%;
+}
+
+.reseña{
+    width: 90%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 footer{

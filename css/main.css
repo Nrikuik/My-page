@@ -1,0 +1,85 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: 'Tajawal', sans-serif;
+}
+
+a{
+    color: #496A81;
+}
+
+h1{
+    color: #091540;
+    font-family: 'Bad Script', cursive;
+    text-size-adjust:inherit;
+    text-align: center; 
+}
+
+h2{
+    color: #43AA8B;
+}
+
+h3{
+    color: #961D4E;
+}
+
+header {
+    /* width - ancho /// height-alto */
+    width: 100%;
+    height: 5%;
+    background-color:rgb(240, 229, 231);
+    top: 0 ;
+    color: grey;
+    text-align: center;
+}
+
+header nav .top{
+    padding: 15px 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+header nav .top .nav-right-section .nav-left-section{
+    list-style: none;
+    justify-self: flex-start;
+}
+header nav .top a{
+    margin-right: 20px;
+    color: grey;
+    justify-self: flex-end;
+}
+
+
+.full{
+    width: 100%;
+}
+
+footer{
+    /* width - ancho /// height-alto */
+    width: 100%;
+    height: 11%;
+    background-color: lightblue;
+    bottom: 0;
+    color: grey;
+    text-align: center;
+}
+
+footer .bottom{
+    padding: 15px 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+footer .bottom .left .bottom .rigth{
+    text-emphasis-color: purple;
+    list-style: none;
+    justify-self: flex-start;
+}
+
+footer .bottom a{
+    margin-right: 20px;
+    color: grey;
+    justify-self: flex-end;
+}
